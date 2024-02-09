@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.main
+{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem;
+    gap: 4rem;
+}
+
+.note
+{
+    height: 25rem;
+    width: 25rem;
+    background-color: #FFFF;
+    border-radius: 15px;
+}
+.top
+{
+    background-color:#6C22A6;
+    padding: 15px;   
+    padding-right: 20px;
+    display: flex;
+    justify-content:space-between;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.top i{
+    color: beige;
+    cursor: pointer;
+}
+
+.head
+{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    border-bottom: solid 3px rgb(177, 167, 167);
+    height: 3rem;
+    padding-left: 5px;
+}
+.head textarea
+{
+    border: none;
+    outline: none;
+    resize: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 80%;
+    height: 100%;
+    overflow:hidden;
+    font-weight: 600;
+}
+.content
+{
+padding: 5px;
+height: 100%;
+}
+
+.content textarea
+{
+    height: 77%;
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1.3rem;
+    border-radius: 15px;
+
+    overflow: auto;
+}
+
+.date
+{
+    font-size: 0.7rem;
+    margin-top: 5px;
+    color: grey;
+}
+
+.addbtn
+{
+    position: fixed;
+    background-color:black;
+    color: white;
+    right: 20px;
+    top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    height: 3rem;
+    width: 8rem;
+}
+.savenote
+{
+    position: fixed;
+    background-color:#6C22A6;
+    color: white;
+    right: 20px;
+    top: 80px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.heading
+{
+    padding: 1rem;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Protest Riot', sans-serif;
+    color: #D04848;
+}
+
+.heading span
+{
+    font-family: 'Protest Riot', sans-serif;
+    color: #F3B95F;
+}
+.heading img
+{
+    height: 6rem;
+    width: 6rem;
+}

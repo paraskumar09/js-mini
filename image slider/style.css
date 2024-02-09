@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main
+{
+    height: 250px;
+    width: 700px;
+    margin-left: 30%;
+    margin-top:10%;
+    border: solid 2px grey;
+    position: relative;
+    overflow: hidden;
+}
+
+img
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 0.5s;
+
+}
+
+.prev
+{
+    position: absolute;
+    top: 35%;
+    left: 31%;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255,0.8);
+}
+
+.next
+{
+    position: absolute;
+    top: 35%;
+    left: 68%;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255,0.8);
+
+
+}
